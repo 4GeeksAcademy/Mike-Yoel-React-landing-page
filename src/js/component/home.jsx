@@ -1,13 +1,15 @@
 import React from "react";
-import Jumbotron from "./Jumbotron.jsx";
+
+import Navbar from "./Navbar";
+
+//include images into your bundle
+import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-    return (
-        <div className="text-center style.bg-secondary">
-            <Jumbotron />
-        </div>
-    );
+	return (
+		<Navbar />
+	);
 };
 
 export default Home;
