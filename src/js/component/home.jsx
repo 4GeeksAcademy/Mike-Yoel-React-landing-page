@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "./Navbar";
 
 //include images into your bundle
@@ -12,3 +13,4 @@ const Home = () => {
 };
 
 export default Home;
+
